@@ -1,0 +1,404 @@
+* {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: #696969;
+}
+
+html {
+  min-width: 750px;
+}
+body {
+  
+  margin: 0;
+  border: 0;
+  background-color: orange;
+  display: block;
+}
+
+h1 {
+  font-size: 26px;
+  color: white;
+  background-color: black;
+  padding: 10px 10px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.casSite {
+  font-size: 14px;
+  color: orange;
+  font-weight: bold;
+}
+strong {
+  font-size: 14px;
+  font-weight: bold;
+  color: orange;
+}
+nav {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  margin: auto;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  top: 0;
+  background-color: orange;
+  border-bottom: solid 3px #995400
+}
+
+nav img {
+  height: 100%;
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  border: 0px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a {
+  color: white;
+}
+
+#sectionTop {
+  background-image: url("Resources/Images/IMG_1158.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 34em;
+  background-size: cover;
+  display: flex;
+}
+#casOverlay {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-wrap:  wrap;
+  align-items: center;
+  align-content: center;
+  padding-left: 150px;
+
+}
+
+#casOverlay h3 {
+  color: black;
+  background-color: orange;
+  padding: 10px 10px;
+}
+.sectionContainer {
+  margin: 100px;
+}
+
+.section {
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px #cc7000;
+    border: solid 3px #995400;
+}
+
+.sectionRan {
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  background-color: white;
+  box-shadow: 10px 10px #cc7000;
+  border: solid 3px #995400;
+}
+
+
+#sectionAbout {
+  width: 100%;
+  height: 0px;
+  display: flex;
+  align-self: flex-end;
+}
+
+#sectionSkills {
+  position:relative;
+  bottom: 0;
+}
+
+#sectionRandom {
+position:relative;
+bottom: 0;
+}
+
+#textAbout {
+  width: 500px;
+}
+
+#photoAbout {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+#casPhoto1 {
+  height: 300px;
+  position: absolute;
+  padding-right: 250px;
+}
+#casPhoto2 {
+  height: 200px;
+  position:absolute;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+#casPhoto3 {
+  height: 200px;
+  position: absolute;
+  padding-top: 200px;
+  padding-right: 50px;
+}
+
+#casPhoto3 img {
+  border: solid 2px white;
+}
+
+#iconSkills {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#textSkill {
+  width: 500px;
+  padding-right: 80px;
+}
+
+.skillPair {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.skillPair img {
+  height: 80px;
+}
+
+.skillPair label {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  display: block;
+  height: auto;
+  align-items: center;
+}
+
+#textArea {
+  border: none;
+  display: block;
+  width: 500px;
+  height: 28px;
+  }
+
+  #textContainer {
+    width: 500px;
+  }
+
+  #textArea {
+    border: solid 2px orange;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+
+  #genButton {
+    margin-top: 40px;
+    background-color: orange;
+    color: white;
+  }
+
+
+
+  #teamResult {
+    padding-right: 50px;
+  }
+
+  #boxResult {
+    color: orange;
+  }
+
+  footer {
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  footer h3 {
+    color:white;
+  }
+  footer h4 {
+    color: white;
+  }
+  footer p {
+    color:white;
+  }
+
+  #contactPhoto {
+    height: 350px;
+  }
+
+  #contactFooter {
+    padding-top: 100px;
+  }
+
+
+  @media screen and (max-width: 1128px) {
+
+    h1 {
+      width: auto;
+    }
+    
+    nav {
+      position: static;
+      height: auto;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    nav img {
+      height: 69px;
+      display: inline-block;
+      padding:  0px;
+    }
+    
+    nav ul {
+      justify-content: center;
+      flex-direction: column;
+      padding: 0px;
+    }
+    nav ul li {
+      padding-bottom: 15px;
+      padding-left: 0px;
+    }
+    
+    #sectionTop {
+      display: block;
+      text-align: center;
+    }
+
+    #casOverlay {
+      text-align: center;
+      padding: 0px;
+      justify-content: center;
+      padding-top: 200px;
+      width: 100%;
+      flex-direction: column;
+      height: auto;
+    }
+    
+    .sectionContainer {
+      height: fit-content;
+    }
+    
+    .section {
+        height: fit-content;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .sectionRan {
+      flex-direction: column;
+    }
+
+    #textAbout {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+    
+    #photoAbout {
+      width: auto;
+      height: auto;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+    #casPhoto1 {
+      position: relative;
+      padding: 0;
+      padding-bottom: 30px;
+    }
+    #casPhoto2 {
+      height: 200px;
+      position: relative;
+      padding: 0;
+      padding-bottom: 30px;
+    }
+    #casPhoto3 {
+      padding: 0;
+      position: relative;
+
+    }
+    
+    #textSkill {
+      text-align: center;
+      padding: 0;
+      padding-bottom: 30px;
+    }
+    
+    .container {
+      text-align: center;
+    }
+    
+      #textContainer {
+        width: 100%;
+      }
+    
+      #textArea {
+        width: 98%;
+      }
+        
+      #teamResult {
+        padding-right: 0px;
+      }
+    
+      @media screen and (max-width: 800px) {
+
+      #iconSkills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .skillPair {
+        padding-bottom: 20px;
+      }

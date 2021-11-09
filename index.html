@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Portfolio - Caspar Lucas</title>
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+  
+  <body>
+    <div id='sectionTop'>
+    <nav>
+      <img src="./Resources/Images/CASlogoWhite.png">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#sectionAbout">About</a></li>
+        <li><a href="#sectionSkills">Skills</a></li>
+        <li><a href="#sectionRandom">RandomTeam</a></li>
+        <li><a href="./Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id='casOverlay'>
+      <h1>Caspar Lucas</h1>
+      <h3>Personal Portfolio</h3>
+    </div>
+    <div id='sectionAbout'></div>
+  </div>
+<div class='sectionContainer'>
+    <div class='section'>
+    <div id='textAbout'>
+      <h2>About</h2>
+      <p> My name is Caspar Lucas. I am currently enrolled in a Full-Stack coding course with Codecademy.com. My background covers a variety of creative disciplines including graphic, footwear and digital design.
+        <br><br>
+        My passion for creativity has encouraged me to explore many of my personal interests including many additional elements of digital design, 3D modelling and also Jewellery design.
+        <br><br>
+        If you would like to see more of my credentials, please contact me to request a copy of my CV.</p>
+    </div>  
+      <div id='photoAbout'>
+      <img id='casPhoto1' src="./Resources/Images/IMG_0231.jpeg">
+      <img id='casPhoto2' src="./Resources/Images/skullSketch.jpeg">
+      <img id='casPhoto3' src="./Resources/Images/greyRunner.jpeg">
+    </div>
+  </div>
+  <div id='sectionSkills'></div>
+</div>
+<div class='sectionContainer'>
+  <div class='section'>
+    <div id='textSkill'>
+      <h2>Skills</h2>
+      <p> During my education into software development, I have been introduced to a number of different languages and frameworks. 
+        <br><br>
+        Examples of previous and ongoing work can be found on my GitHub. <a class='casSite' href='https://www.github.com/casparlucas'>Click here</a> to open see my Git Repositories.
+        <br><br>
+        In addition to these dev tools, <a class='casSite' href='https://www.casparlucas.com'>click here</a> to be directed to my personal website demonstrating a range of design skills across a variety of creative disciplines.</p>
+        </div>  
+    <div id='iconSkills'>
+      <div class='skillPair'>
+        <img src='Resources/Images/htmlLogo.png'>
+        <label>
+          <h3>HTML</h3>
+          <p>Level: Intermediate</p>
+        </label>
+      </div>
+      <div class='skillPair'>
+        <img src='Resources/Images/cssLogo.png'>
+        <label>
+          <h3>CSS</h3>
+          <p>Level: Intermediate</p>
+        </label>
+      </div>
+      <div class='skillPair'>
+        <img src='Resources/Images/jsLogoYellow.png'>
+        <label>
+          <h3>JavaScript</h3>
+          <p>Level: Beginner</p>
+        </label>
+      </div>
+      <div class='skillPair'>
+        <img src='Resources/Images/pythonLogo.png'>
+        <label>
+          <h3>Python</h3>
+          <p>Level: Beginner</p>
+        </label>
+      </div>
+      <div class='skillPair'>
+        <img src='Resources/Images/gitLogo.png'>
+        <label>
+          <h3>Git</h3>
+          <p>Level: Beginner</p>
+        </label>
+      </div>
+
+    </div>
+  </div>
+  <div id='sectionRandom'></div>
+</div>
+<div class='sectionContainer'>
+    <div class='sectionRan'>
+      <div class='container'>
+        <div id='textContainer'>
+        <h2>Random Team Generator</h2>
+          <p> This Team generator will give a random selection of half the names entered in the text box. Enter an even number of player names, separated with a comma into the text box below.  
+            <br><br>
+            Click the <strong>'Generate'</strong> button when you are done!
+            </div>  
+        <textarea placeholder="Enter player names here..." id="textArea"></textarea>
+        <button id='genButton' type="button">Generate</button>
+      </div>
+      <div class='container'>
+      <div id="teamResult">
+        <h2>Your random team is: </h2>
+        <span id="boxResult"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    <footer>
+      <h3>My Personal Portfolio Website</h3>
+      <h4>by Caspar Lucas </h4>
+      <p>&copy; 2021</p>
+    </footer>
+    <script src='randomTeam.js'></script>
+  </body>
+</html>
