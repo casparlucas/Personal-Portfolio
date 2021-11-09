@@ -10,3 +10,8 @@
 - JavaScript
 - Git and GitHub
 - Command line
+
+## Link
+
+- See the live site hosted on GitHub Pages here 
+https://casparlucas.github.io/Personal-Portfolio/
